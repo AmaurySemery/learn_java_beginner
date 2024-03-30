@@ -7,10 +7,7 @@ public class CleanWorld {
        sayHelloTo("world");
     }
     
-    /** affiche le message "hello" au destinataire fourni
-    *
-    * @param recipient
-    */
+    /** affiche le message "hello" au destinataire fourni */
     private static void sayHelloTo(String recipient) {
        System.out.println("Hello " + recipient);
     }
