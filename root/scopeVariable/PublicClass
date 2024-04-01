@@ -1,3 +1,5 @@
+package root.scopeVariable;
+
 public class PublicClass {
     public boolean publicProperty = true;
     int internalProperty = 0; //par défaut pour package-private
