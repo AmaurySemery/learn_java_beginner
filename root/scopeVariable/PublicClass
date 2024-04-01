@@ -1,0 +1,7 @@
+public class PublicClass {
+    public boolean publicProperty = true;
+    int internalProperty = 0; //par défaut pour package-private
+    private String fileprivateProperty = "Hello!"
+    private static void privateMethod() {
+    }
+}
