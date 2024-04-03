@@ -6,7 +6,7 @@ package root.conditions;
 * @author L'équipe Éducation d'OpenClassrooms
 */
 
-public class ConditionalHello {
+public class conditionalHello {
 
 /** Le programme commence ici
 * @param args arguments envoyé avec la ligne de commande
