@@ -1,6 +1,6 @@
 package root.loop;
 
-public class loopFor {
+public class LoopFor {
     public static void main(String[] args) {
         
         //TODO: Créez une boucle "for" qui affiche la phrase "I am having so much fun!" 5 fois

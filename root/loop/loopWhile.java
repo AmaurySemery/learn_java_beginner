@@ -1,6 +1,6 @@
 package root.loop;
 
-public class loopWhile {
+public class LoopWhile {
     public static void main(String[] args) {
         // Boucle "While"
         int pushUpGoal = 0;
