@@ -4,6 +4,8 @@ package root.conditions;
 * - un message Hello personnalisé si un argument a été envoyé lors de l'exécution du programme
 * - le message traditionnel "Hello World!" si ce n'est pas le cas
 * @author L'équipe Éducation d'OpenClassrooms
+
+la commande : java conditions/ConditionalHello Hello world!
 */
 
 public class ConditionalHello {
