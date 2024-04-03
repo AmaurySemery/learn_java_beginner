@@ -18,4 +18,7 @@ public class SwitchHello {
         }
     }
 
+    public static void sayHelloTo(String name) {
+        System.out.println("Hello, " + name + "!");
+    }
 }
