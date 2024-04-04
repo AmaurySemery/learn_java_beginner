@@ -22,3 +22,5 @@ public class Carre extends FigureGeometrique {
         return 4*cote;
     }
 }
+
+// En Java, une classe fille ne peut hériter que d'une seule classe mère, mais rien n'empêche cette classe mère d'être la classe fille d'une autre classe mère
