@@ -20,12 +20,16 @@ public class Test {
     
     }
 
+// Classe mère spécialisée en Chien, Oiseau, Pigeon avec le mot clé "extends"
+// => La classe Chien étend la classe FigureGeomtrique
 class Animal {
     void deplacer() {
     System.out.println("Je me déplace");
 }
 }
 
+// La classe fille Chien récupère automatiquement tous les attributs de la classe mère
+// Lorsqu'on fait de l'héritage, tous les champs sont hérités => ils peuvent donc être manipulés si leur accessibilité le permet
 class Chien extends Animal {
 
     void deplacer() {
