@@ -1,5 +1,14 @@
 package root.polymorphisme;
 
+public class Test {
+    public static void main(String[] args) {
+        FigureGeo figure = new FigureGeometrique();
+        figure.moveTo(1, 1);
+        Carre carre = new Carre();
+        carre.moveTo(2, 2);
+    }
+}
+
 // Classe mère spécialisée en Carre avec le mot clé "extends"
 // => La classe Carre étend la classe FigureGeomtrique
 class FigureGeometrique {
