@@ -11,6 +11,8 @@ public class FigureGeometrique {
     }
 }
 
+// La classe fille Carre récupère automatiquement tous les attributs de la classe mère
+// Lorsqu'on fait de l'héritage, tous les champs sont hérités => ils peuvent donc être manipulés si leur accessibilité le permet
 public class Carre extends FigureGeometrique {
     private long cote;
     public long getCote() {
