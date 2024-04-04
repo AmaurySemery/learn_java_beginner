@@ -4,7 +4,9 @@ public class OC {
     public static void main(String[] args) {
         Marque apple = new Marque("apple");
 
-        System.out.println(apple.nom);
+        Telephone iphone = new Telephone(34000, "iphone", apple);
+
+        System.out.println(iphone.nom);
 
     }
 }
