@@ -5,7 +5,7 @@ package root.conditions;
 * - le message traditionnel "Hello World!" si ce n'est pas le cas
 * @author L'équipe Éducation d'OpenClassrooms
 
-la commande : java conditions/ConditionalHello Hello world!
+la commande : java root/conditions/ConditionalHello Hello world!
 */
 
 public class ConditionalHello {
