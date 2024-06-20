@@ -34,7 +34,7 @@ public class OC {
         ingredients.add("butter");
         ingredients.add("salt");
         ingredients.remove("salt");
-        System.out.println(ingredients);
+        System.out.println(myList);
         System.out.println(ingredients.size());
         
 }
