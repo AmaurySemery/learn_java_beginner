@@ -1,7 +1,9 @@
 package root.table;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class OC { 
     public static void main(String[] args) {
@@ -25,6 +27,15 @@ public class OC {
         myList.remove(1); // removed 12 -> [4, 5]
         System.out.println(myList);
         System.out.println(myList.size());
+
+        Set<String> ingredients = new HashSet<String>();
+        ingredients.add("eggs");
+        ingredients.add("sugar");
+        ingredients.add("butter");
+        ingredients.add("salt");
+        ingredients.remove("salt");
+        System.out.println(ingredients);
+        System.out.println(ingredients.size());
         
 }
 }
