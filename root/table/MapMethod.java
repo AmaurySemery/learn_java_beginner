@@ -8,6 +8,8 @@ public class MapMethod {
         Map<String, Integer> map = new HashMap<String, Integer>();
 
         map.put("Jean", 34);
+        map.put("Anais", 25);
+        map.put("Jean", 89);
         
         for(Map.Entry<String, Integer> entry: map.entrySet()){
             printEntry(entry);
